@@ -1,0 +1,11 @@
+
+state={
+	id=4
+	name="STATE_4"
+	provinces={
+		335 557 680 772 
+	}
+	manpower=112876
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

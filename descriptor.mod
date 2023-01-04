@@ -1,4 +1,4 @@
-version="1"
+name="Flashpoint: Spain"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/units"
@@ -32,9 +32,13 @@ replace_path="music"
 replace_path="common/characters"
 replace_path="common/generation"
 replace_path="history/general"
+replace_path="localisation/english/state_names_l_english"
+replace_path="localisation/english/bookmarks_l_english"
+
 tags={
-	"Events"
+	"Map"
+	"Utilities"
 }
-name="Flashpoint: Spain"
-supported_version="1.12.7"
-picture="thumbnail.png"
+picture="Thumbnail.png"
+supported_version="1.12.*"
+path="C:/Users/mason/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/flashpoint"
