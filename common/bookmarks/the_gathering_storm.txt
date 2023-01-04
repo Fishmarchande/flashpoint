@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		
 		"SPA"={
-			history = "TES_GATHERING_STORM_DESC"
+			history = "SPA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				
