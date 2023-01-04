@@ -1,1 +1,3 @@
-TES	= "countries/Test.txt"
+SPA	= "countries/Spain.txt"
+FRA 	= "countries/France.txt"
+POR 	= "countries/Portugal.txt"
