@@ -4,10 +4,10 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 2000.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "TES"
+		default_country = "SPA"
 		default = yes
 		
-		"TES"={
+		"SPA"={
 			history = "TES_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {

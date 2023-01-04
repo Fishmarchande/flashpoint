@@ -5,12 +5,12 @@ state={
 
 
 	history={
-		owner = TES
+		owner = SPA
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = TES
+		add_core_of = SPA
 	}
 
 

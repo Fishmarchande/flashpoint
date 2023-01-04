@@ -2,11 +2,11 @@ state={
 	id=40
 	name="STATE_40"
 	history={
-		owner = TES
+		owner = SPA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = TES
+		add_core_of = SPA
 	}
 	provinces={
 		1 62 137 138 204 510 619 660 746 804 853 
