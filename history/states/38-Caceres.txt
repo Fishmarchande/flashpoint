@@ -1,6 +1,13 @@
 state={
 	id=38
 	name="STATE_38"
+	history={
+		owner = TES
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TES
+	}
 	provinces={
 		19 68 150 151 219 223 242 284 340 382 408 521 528 838 839 841 
 	}
