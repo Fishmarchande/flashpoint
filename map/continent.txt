@@ -1,0 +1,2 @@
+continents = {
+	europe}

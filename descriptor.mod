@@ -32,7 +32,7 @@ replace_path="music"
 replace_path="common/characters"
 replace_path="common/generation"
 replace_path="history/general"
-replace_path="localisation/english/state_names_l_english"
+replace_path="localisation/state_names_l_english"
 replace_path="localisation/english/bookmarks_l_english"
 
 tags={

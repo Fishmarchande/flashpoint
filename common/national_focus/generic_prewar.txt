@@ -1,0 +1,39 @@
+focus_tree = {
+	id = prewar_focus
+	
+	country = {
+		factor = 0
+    		modifier = {
+      		  add = 20
+     		   original_tag = SPA
+ 		  }
+	}
+	reset_on_civilwar = no
+
+	focus = {
+		id = choose_nationalists
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 5
+		y = 1
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			load_focus_tree = prewar_nationalist_focus
+		}
+	}
+	focus = {
+		id = choose_republicans
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 7
+		y = 1
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			load_focus_tree = prewar_republican_focus
+		}
+	}
+}

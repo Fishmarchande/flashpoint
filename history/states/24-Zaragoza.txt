@@ -9,7 +9,7 @@ state={
 		add_core_of = SPA
 	}
 	provinces={
-		171 255 273 305 320 393 486 541 564 618 628 684 773 829 
+		171 255 273 305 320 393 486 541 564 618 628 684 773 829 835
 	}
 	manpower=593095
 	buildings_max_level_factor=1.000

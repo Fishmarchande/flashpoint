@@ -1,0 +1,22 @@
+focus_tree = {
+	id = prewar_nationalist_focus
+	
+	country = {
+		factor = 0
+	}
+	reset_on_civilwar = no
+
+	focus = {
+		id = choose_nationalists
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 5
+		y = 1
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+}

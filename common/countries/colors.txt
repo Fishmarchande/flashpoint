@@ -2,14 +2,14 @@
 
 
 SPA = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 245 130 64 }
+	color_ui = rgb { 245 130 64 }
 }
 FRA = {
 	color = rgb { 7 3 252 }
 	color_ui = rgb { 7 3 252 }
 }
 POR = {
-	color = rgb { 3 252 32 }
-	color_ui = rgb { 3 252 32 }
+	color = rgb { 102 255 178 }
+	color_ui = rgb { 102 255 178 }
 }

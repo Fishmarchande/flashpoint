@@ -16,14 +16,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 36
-	communism = 10
-	neutrality = 4
+	fascism = 100
 }
 
 create_country_leader = {
-	name = "Marie T. Smith"
+	name = "Antonio de Oliveira Salazar"
 	desc = "POLITICS_MARIE_T_SMITH_DESC"
 	picture = "Portrait_Microwave.tga"
 	expire = "1965.1.1"
