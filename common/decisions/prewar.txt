@@ -1,0 +1,22 @@
+SPA_popularity_decisions = {
+	SPA_popularity = {
+
+		icon = generic_construction
+
+		available = {
+		    is_ai = no
+		}
+
+        visible = {
+            is_debug = yes
+        }
+
+		cost = 25
+
+		fire_only_once = no
+
+		complete_effect = {
+            set_variable = { SPA.falanage_radicalism = 25 }
+        }
+    }
+}

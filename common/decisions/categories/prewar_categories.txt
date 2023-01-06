@@ -1,0 +1,17 @@
+################
+#### SPA ####
+################
+
+SPA_popularity_decisions = {
+	priority = 101
+    picture = GFX_decision_generic
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+    	always = yes
+	}
+
+	visible_when_empty = yes
+}

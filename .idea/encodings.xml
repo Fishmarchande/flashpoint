@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/common/bookmarks/the_gathering_storm.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/localisation/english/bookmarks_l_english.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/localisation/english/events_l_english.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/localisation/english/strategic_region_names_l_english.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/localisation/state_names_l_english.yml" charset="UTF-8" />
   </component>
 </project>

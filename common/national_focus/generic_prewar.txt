@@ -20,6 +20,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			set_country_flag = chose_nationalists
 			load_focus_tree = prewar_nationalist_focus
 		}
 	}
@@ -33,6 +34,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			set_country_flag = chose_republican
 			load_focus_tree = prewar_republican_focus
 		}
 	}
