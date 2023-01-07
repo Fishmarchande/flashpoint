@@ -4,6 +4,7 @@ state={
 	history={
 		owner = SPA
 		buildings = {
+			industrial_complex = 1
 			infrastructure = 4
 		}
 		add_core_of = SPA

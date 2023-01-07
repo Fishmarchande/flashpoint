@@ -42,4 +42,4 @@ tags={
 }
 picture="Thumbnail.png"
 supported_version="1.12.*"
-path="C:/Users/mason/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/flashpoint"
+path="/Users/mason/Documents/Paradox Interactive/Hearts of Iron IV/mod/flashpoint"
