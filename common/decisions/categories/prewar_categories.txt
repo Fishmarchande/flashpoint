@@ -2,7 +2,7 @@
 #### SPA ####
 ################
 
-SPA_popularity_decisions = {
+nationalist_popularity_decisions = {
 	priority = 101
     picture = GFX_decision_generic
 
@@ -10,7 +10,23 @@ SPA_popularity_decisions = {
 		always = yes
 	}
 	visible = {
-    	always = yes
+		has_country_flag = chose_nationalists
+
+	}
+
+	visible_when_empty = yes
+}
+
+republican_popularity_decisions = {
+	priority = 101
+    picture = GFX_decision_generic
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		has_country_flag = chose_republicans
+
 	}
 
 	visible_when_empty = yes

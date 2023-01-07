@@ -12,11 +12,6 @@ country_event = {
 	picture = GFX_report_event_african_soldiers
 	fire_only_once = yes
 	
-	trigger = {
-		tag = SPA
-		date > 1936.3.14
-	}
-	
 	option = {
 		name = prewar_events.1.a
 		add_war_support = 0.1
@@ -30,21 +25,17 @@ country_event = {
 }
 #TRIGGER RELATIONS WITH NATIONALIST FACTIONS
 country_event = {
+	days = 3
 	id = prewar_events.2
 	title = prewar_events.2.t
 	desc = prewar_events.2.d
 	fire_only_once = yes
-	
-	trigger = {
-		tag = SPA
-		has_country_flag = chose_nationalists
-	}
-	immediate = {
-	    set_variable = { carlist_radicalism = 25 }
-	    set_variable = { falanage_radicalism = 25 }
-        set_variable = { alphonsist_radicalism = 25 }
-        set_variable = { ceda_radicalism = 25 }
 
+	immediate = {
+	    set_variable = { carlist_radicalism = 20 }
+	    set_variable = { falanage_radicalism = 65 }
+        set_variable = { ceda_radicalism = 25 }
+        set_variable = { conservative_radicalism = 0 }
 	}
 	
 	option = {
@@ -57,4 +48,30 @@ country_event = {
 		add_war_support = 0.1
  
 	}
+}
+#Trigger relations with Republican factions
+country_event = {
+	days = 3
+	id = prewar_events.3
+	title = prewar_events.3.t
+	desc = prewar_events.3.d
+	fire_only_once = yes
+
+	immediate = {
+	    set_variable = { carlist_radicalism = 20 }
+	    set_variable = { falanage_radicalism = 65 }
+        set_variable = { ceda_radicalism = 25 }
+	}
+
+	option = {
+		name = prewar_events.3.a
+		add_war_support = 0.1
+
+	}
+	option = {
+		name = prewar_events.3.b
+		add_war_support = 0.1
+
+	}
+}
 

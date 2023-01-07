@@ -7,8 +7,9 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	focus = {
-		id = choose_nationalists
+		id = chose_nationalists
 		icon = GFX_goal_generic_allies_build_infantry
+		bypass = {has_country_flag = chose_nationalists}
 		x = 5
 		y = 1
 		cost = 1
@@ -19,4 +20,20 @@ focus_tree = {
 
 		}
 	}
+	######Army forming focuses#######
+	focus = {
+    		id = form_militaries
+    		prerequisite = { focus = chose_nationalists }
+    		relative_position_id = chose_nationalists
+    		icon = GFX_goal_generic_allies_build_infantry
+    		x = 3
+    		y = 1
+    		cost = 1
+    		available_if_capitulated = yes
+
+    		completion_reward = {
+
+    		}
+    }
+    #######
 }

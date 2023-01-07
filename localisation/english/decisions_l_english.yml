@@ -1,4 +1,6 @@
 ﻿l_english:
+ 
+########BASE GAME######
  DECISIONVIEW_TITLE:0 "Events and Decisions"
  DECISIONSVIEW_EVENT_HEADER:0 "Events"
  POPUP_NEWS:0 "News Popup"
@@ -20,8 +22,8 @@
  ADD_DAYS_TO_MISSION:0 "Add $DAYS|H$ days to Mission $MISSION|H$"
  REMOVE_DAYS_TO_MISSION:0 "Remove $DAYS|H$ days from Mission $MISSION|H$"
  CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
- SPA_popularity_decisions:0 "Popularity View"
- SPA_popularity:0 "Falange Radicalism is [?falanage_radicalism]"
- TESTVAL:0 "@SPA has 1"
- TESTVAL_BREAKDOWN:0 "@SPA has 1, there are some values here"
- SPA_popularity_decisions_desc:0 "@SPA has 1 influence \n @SPA has 5 influence"
+#########OUR MOD ############
+ nationalist_popularity_decisions:0 "Popularity View"
+ nationalist_popularity:0 "Falange Radicalism is [?falanage_radicalism]"
+ nationalist_popularity_decisions_desc:0 "£faction_fal   §RFalangists§! has [?falanage_radicalism] radicalism \n\n£faction_ceda   §8CEDA§! has [?ceda_radicalism] radicalism \n\n£faction_carlist   §WCarlists§! has [?carlist_radicalism] radicalism"
+ republican_popularity_decisions_desc:0 "£faction_fal   §RFalangists§! has 1 influence \n @SPA has 5 influence"

@@ -22,6 +22,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = chose_nationalists
 			load_focus_tree = prewar_nationalist_focus
+			ROOT = { country_event = prewar_events.2 }
 		}
 	}
 	focus = {
@@ -36,6 +37,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = chose_republican
 			load_focus_tree = prewar_republican_focus
+			ROOT = { country_event = prewar_events.3 }
 		}
 	}
 }
