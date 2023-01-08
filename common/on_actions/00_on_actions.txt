@@ -1,3 +1,12 @@
 on_actions = {
-	# country 
+    on_startup = {
+        effect = {
+            SPA = {
+                country_event = { 
+                    id = prewar_events.1
+                    days = 1
+                }
+            }
+        }
+    }
 }

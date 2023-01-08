@@ -1,0 +1,14 @@
+spriteTypes = {
+###LIGHT INFANTRY
+	spriteType = { name = "GFX_unit_lightinfantry_icon_medium"                                    textureFile = "gfx/interface/counters/divisions_large/unit_lightinfantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_lightinfantry_icon_medium_white"							   textureFile = "gfx/interface/counters/divisions_small/onmap_unit_lightinfantry_icon.dds.dds" noOfFrames = 2 }
+    ###SPRITE BELOW IS PLACEHOLDER
+    spriteType = { name = "GFX_unit_lightinfantry_icon_small"                                      texturefile = "gfx/texticons/unit_infantry_icon_small.dds" legacy_lazy_load = no noOfFrames = 2
+##MILITIA
+	spriteType = { name = "GFX_unit_militia_icon_medium"                                    textureFile = "gfx/interface/counters/divisions_large/unit_militia_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_militia_icon_medium_white"							   textureFile = "gfx/interface/counters/divisions_small/onmap_militia.dds" noOfFrames = 2 }
+    ###SPRITE BELOW IS PLACEHOLDER
+    spriteType = { name = "GFX_unit_militia_icon_small"                                      texturefile = "gfx/texticons/unit_militia_icon_small.dds" legacy_lazy_load = no noOfFrames = 2
+
+   }
+}

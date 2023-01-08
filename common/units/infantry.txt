@@ -41,7 +41,7 @@ sub_units = {
 			infantry_equipment = 100
 		}
 	}
-    lightInfantry = {
+    lightinfantry = {
 		abbreviation = "LIG"
 		sprite = infantry
 		map_icon_category = infantry
