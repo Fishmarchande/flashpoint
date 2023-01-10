@@ -123,4 +123,45 @@ sub_units = {
 			infantry_equipment = 25
 		}
 	}
+	mountainer = {
+		abbreviation = "MON"
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		ai_priority = 200
+		active = yes
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 1
+		
+		#Size Definitions
+		max_strength = 14
+		max_organisation = 30
+		default_morale = 0.2
+		manpower = 500
+
+		#Misc Abilities
+		training_time = 28
+		suppression = 0.8
+		weight = 0.2
+		
+		supply_consumption = 0.02
+	
+		need = {
+			infantry_equipment = 25
+		}
+	}
 }
