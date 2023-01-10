@@ -37,12 +37,12 @@ division_template = {
         mountainer = { x = 0 y = 1 }
         mountainer = { x = 0 y = 2 }
         mountainer = { x = 0 y = 3 }
-        militia = { x = 1 y = 0 }
-        militia = { x = 1 y = 1 }
-        militia = { x = 1 y = 2 }
-        militia = { x = 1 y = 3 }
-        militia = { x = 1 y = 4 }
-        militia = { x = 2 y = 0 }
+        lightinfantry = { x = 1 y = 0 }
+        lightinfantry = { x = 1 y = 1 }
+        lightinfantry = { x = 1 y = 2 }
+        lightinfantry = { x = 1 y = 3 }
+        lightinfantry = { x = 1 y = 4 }
+        lightinfantry = { x = 2 y = 0 }
     }
 
     support = {
@@ -60,7 +60,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -72,7 +72,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -84,7 +84,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -96,7 +96,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -108,7 +108,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -120,7 +120,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -132,7 +132,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -144,7 +144,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -156,7 +156,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -168,7 +168,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -180,7 +180,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -192,7 +192,7 @@ units = {
         division_template = "Peninsular Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.25
-        start_manpower_factor = 0.5
+        start_manpower_factor = 1.0
     }
     division = {
         division_name = {
@@ -213,6 +213,18 @@ units = {
         }
 
         location = 39
+        division_template = "Regimiento de Cazadores de Montaña"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1.0
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 819
         division_template = "Regimiento de Cazadores de Montaña"
         start_experience_factor = 0.2
         start_equipment_factor = 1.0
