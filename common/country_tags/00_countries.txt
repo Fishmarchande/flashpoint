@@ -1,3 +1,4 @@
 SPA	= "countries/Spain.txt"
 FRA 	= "countries/France.txt"
 POR 	= "countries/Portugal.txt"
+SPD 	= "countries/Nationalist.txt"
