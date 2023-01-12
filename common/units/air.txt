@@ -8,4 +8,22 @@ sub_units = {
 		categories = { category_nav_bomber }
 		land_air_wing_size = 100
 	}
+	fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { small_plane_airframe = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 100
+	}
+	tac_bomber = {
+		sprite = medium_plane
+		priority = 4
+		active = yes
+		type = tactical_bomber
+		need = { medium_plane_airframe = 1 }
+		categories = { category_tac_bomber }
+		land_air_wing_size = 100
+	}
 }

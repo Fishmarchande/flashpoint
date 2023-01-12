@@ -272,4 +272,34 @@ air_wings = {
             amount = 12
         }
     }
+    46 = {
+        nav_bomber_equipment_1 = {
+            owner = "SPA"
+            amount = 12
+        }
+    }
+    27 = {
+        fighter_equipment_0 = {
+            owner = "SPA"
+            amount = 12
+        }
+    }
+    27 = {
+        nav_bomber_equipment_1 = {
+            owner = "SPA"
+            amount = 12
+        }
+    }
+    52 = {
+        nav_bomber_equipment_1 = {
+            owner = "SPA"
+            amount = 12
+        }
+    }
+    52 = {
+        tac_bomber_equipment_0 = {
+            owner = "SPA"
+            amount = 3
+        }
+    }
 }
