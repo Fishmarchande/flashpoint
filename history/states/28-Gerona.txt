@@ -5,6 +5,7 @@ state={
 		owner = SPA
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
 		}
 		add_core_of = SPA
 	}
